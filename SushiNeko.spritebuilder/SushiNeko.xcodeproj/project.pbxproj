@@ -46,6 +46,7 @@
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		89B2DA961B41ADA700B39C79 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B2DA951B41ADA700B39C79 /* Character.swift */; };
 		89B2DA9C1B41ADC400B39C79 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B2DA9B1B41ADC400B39C79 /* Piece.swift */; };
+		89B2DAA41B420E2000B39C79 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B2DAA31B420E2000B39C79 /* GameOver.swift */; };
 		927F61A5196C771E000F43EF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
 		927F61A9196C771E000F43EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		927F61AA196C771E000F43EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
@@ -176,6 +177,7 @@
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		89B2DA951B41ADA700B39C79 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = Source/Character.swift; sourceTree = "<group>"; };
 		89B2DA9B1B41ADC400B39C79 /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Piece.swift; path = Source/Piece.swift; sourceTree = "<group>"; };
+		89B2DAA31B420E2000B39C79 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOver.swift; path = Source/GameOver.swift; sourceTree = "<group>"; };
 		927F61BF196C771E000F43EF /* SushiNeko Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SushiNeko Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 			children = (
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				7A046D7519E84C36004C4763 /* MainScene.swift */,
+				89B2DAA31B420E2000B39C79 /* GameOver.swift */,
 				89B2DA951B41ADA700B39C79 /* Character.swift */,
 				89B2DA9B1B41ADC400B39C79 /* Piece.swift */,
 				D352B48019EC608A00829775 /* MetalShaders */,
@@ -821,6 +824,7 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
 				89B2DA9C1B41ADC400B39C79 /* Piece.swift in Sources */,
+				89B2DAA41B420E2000B39C79 /* GameOver.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 				89B2DA961B41ADA700B39C79 /* Character.swift in Sources */,
 			);
